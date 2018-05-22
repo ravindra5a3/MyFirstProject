@@ -1,0 +1,2 @@
+Service modification for adding Meeting Room details w.r.t Visit
+Updating the "agendaList" page to have the same fields as "agenda" page which helps in editing/adding multiple sessions to the particular day of the Visit

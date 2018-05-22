@@ -1,0 +1,985 @@
+db.user.insert([{
+		"_id": "401468",
+		"name": "Abhinay",
+		"designation": "",
+		"role": "AM",
+		"location": "Hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "306245",
+		"name": "Durga",
+		"designation": "",
+		"role": "SA",
+		"location": "Hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "297757",
+		"name": "Santhosh",
+		"designation": "",
+		"role": "AM",
+		"location": "Hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "130200",
+		"name": "Sumanth",
+		"designation": "",
+		"role": "AM",
+		"location": "Hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "105186",
+		"name": "Abdul",
+		"designation": "",
+		"role": "AM",
+		"location": "Hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "190031",
+		"name": "Shouvik",
+		"designation": "",
+		"role": "AM",
+		"location": "Hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "155933",
+		"name": "Kondal",
+		"designation": "",
+		"role": "AM",
+		"location": "Hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "259252",
+		"name": "Vijay",
+		"designation": "",
+		"role": "AM",
+		"location": "Hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "322508",
+		"name": "Raghav",
+		"designation": "",
+		"role": "AM",
+		"location": "Hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "101230",
+		"name": "Sri Priya",
+		"designation": "",
+		"role": "AM",
+		"location": "Hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "541298",
+		"name": "Deepthi",
+		"designation": "",
+		"role": "LA",
+		"status": "active",
+		"location": "hyderabad",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	},{
+		"_id": "593560",
+		"name": "Shayista",
+		"designation": "",
+		"role": "LA",
+		"status": "active",
+		"location": "bangalore",
+		"contactNumber": "+918456134567",
+		"competency": "",
+		"password": "password-123",
+		"imgUrl": "path of image"
+	}
+])
+
+db.meetingRoom.insert([{
+		"_id": "MR0001",
+		"visitingLocationId": "VL0001",
+		"meetingRoom": "Honey | 5th Floor , Phase 3, DLF-SEZ",
+		"capacity": "10"
+	}, {
+		"_id": "MR0002",
+		"visitingLocationId": "VL0001",
+		"meetingRoom": "Orchid | 5th Floor , Phase 3, DLF-SEZ",
+		"capacity": "16"
+	}, {
+		"_id": "MR0003",
+		"visitingLocationId": "VL0001",
+		"meetingRoom": "Rachel | 5th Floor , Phase 3, DLF-SEZ",
+		"capacity": "12"
+	}, {
+		"_id": "MR0004",
+		"visitingLocationId": "VL0001",
+		"meetingRoom": "Krida Audtorium | 4th Floor , Phase 2, DLF-SEZ",
+		"capacity": "200"
+	}, {
+		"_id": "MR0005",
+		"visitingLocationId": "VL0002",
+		"meetingRoom": "A PJ Kalam | 9 th Floor , 12A",
+		"capacity": "8"
+	}, {
+		"_id": "MR0006",
+		"visitingLocationId": "VL0002",
+		"meetingRoom": "Taramati | 8th Floor , Raheja",
+		"capacity": "20"
+	}, {
+		"_id": "MR0007",
+		"visitingLocationId": "VL0002",
+		"meetingRoom": "Bella vista | 7th Floor , Raheja",
+		"capacity": "18"
+	}, {
+		"_id": "MR0008",
+		"visitingLocationId": "VL0002",
+		"meetingRoom": "Mughal | 10 th Floor , 12A",
+		"capacity": "14"
+}])
+
+db.attendees.insert([
+	{
+		"_id": "A000001",
+		"client_Id": "CUST0001",
+		"name": "Kalyanasundaram, Sripriya",
+		"gender": "female",
+		"password": "123456",
+		"designation": "G'bl PrtceHead",
+		"email": "sripriya.kalyanasundaram@barclays.com",
+		"contactNumber": "+919840713608",
+		"userUrl": "LinkedIn Profile Url",
+		"attendee_path": "attendeepics/+919840713608_pic.gif"
+	}, {
+		"_id": "A000002",
+		"client_Id": "CUST0001",
+		"name": "Thirtha, Raghavendra",
+		"gender": "male",
+		"password": "123456",
+		"designation": "AVP",
+		"email": "raghavendra.thirtha@barclays.com",
+		"contactNumber": "+919986387773",
+		"userUrl": "LinkedIn Profile Url",
+		"attendee_path": "attendeepics/+919986387773_pic.gif"
+	}, {
+		"_id": "A000003",
+		"client_Id": "CUST0001",
+		"name": "Verghis, Vijay",
+		"gender": "male",
+		"password": "123456",
+		"designation": "Director",
+		"email": "vijay.verghis@barclays.com",
+		"contactNumber": "+917720029512",
+		"userUrl": "LinkedIn Profile Url",
+		"attendee_path": "attendeepics/+917720029512_pic.gif"
+	}, {
+		"_id": "A000004",
+		"client_Id": "CUST0001",
+		"name": "Dullur, Sumanth",
+		"gender": "male",
+		"password": "123456",
+		"designation": "Sr.Manager",
+		"email": "dullursumanth.santosh@barclays.com",
+		"contactNumber": "+919177313141",
+		"userUrl": "LinkedIn Profile Url",
+		"attendee_path": "attendeepics/+919177313141_pic.gif"
+	}, {
+		"_id": "A000005",
+		"client_Id": "CUST0001",
+		"name": "Darurie, Venkata Santhosh Kumar",
+		"gender": "male",
+		"password": "123456",
+		"designation": "Manager",
+		"email": "santosh.darurie@barclays.com",
+		"contactNumber": "+919849061100",
+		"userUrl": "LinkedIn Profile Url",
+		"attendee_path": "attendeepics/+919849061100_pic.gif"
+	},{
+		"_id": "A000006",
+		"client_Id": "CUST0002",
+		"name": "Kalyanasundaram, Sripriya",
+		"gender": "female",
+		"password": "123456",
+		"designation": "G'bl PrtceHead",
+		"email": "sripriya.kalyanasundaram@jpmc.com",
+		"contactNumber": "+919840713609",
+		"userUrl": "LinkedIn Profile Url",
+		"attendee_path": "attendeepics/+919840713609_pic.gif"
+	}, {
+		"_id": "A000007",
+		"client_Id": "CUST0002",
+		"name": "Thirtha, Raghavendra",
+		"gender": "male",
+		"password": "123456",
+		"designation": "AVP",
+		"email": "raghavendra.thirtha@jpmc.com",
+		"contactNumber": "+919986387774",
+		"userUrl": "LinkedIn Profile Url",
+		"attendee_path": "attendeepics/+919986387774_pic.gif"
+	}, {
+		"_id": "A000008",
+		"client_Id": "CUST0002",
+		"name": "Verghis, Vijay",
+		"gender": "male",
+		"password": "123456",
+		"designation": "Director",
+		"email": "vijay.verghis@jpmc.com",
+		"contactNumber": "+917720029513",
+		"userUrl": "LinkedIn Profile Url",
+		"attendee_path": "attendeepics/+917720029513_pic.gif"
+	}, {
+		"_id": "A000009",
+		"client_Id": "CUST0002",
+		"name": "Dullur, Sumanth",
+		"gender": "male",
+		"password": "123456",
+		"designation": "Sr.Manager",
+		"email": "dullursumanth.santosh@jpmc.com",
+		"contactNumber": "+919177313142",
+		"userUrl": "LinkedIn Profile Url",
+		"attendee_path": "attendeepics/+919177313142_pic.gif"
+	}, {
+		"_id": "A000010",
+		"client_Id": "CUST0002",
+		"name": "Darurie, Venkata Santhosh Kumar",
+		"gender": "male",
+		"password": "123456",
+		"designation": "Manager",
+		"email": "santosh.darurie@jpmc.com",
+		"contactNumber": "+919849061101",
+		"userUrl": "LinkedIn Profile Url",
+		"attendee_path": "attendeepics/+919849061101_pic.gif"
+	}
+])
+
+db.customer.insert([
+	{
+		"_id": "CUST0001",
+		"clientName": "Barclays",
+		"country": "USA",
+		"region": "California"
+	}, {
+		"_id": "CUST0002",
+		"clientName": "JPMC",
+		"country": "USA",
+		"region": "Arizona"
+	}
+])
+
+db.visitingLocation.insert([
+	{
+		"_id": "VL0001",
+		"country": "India",
+		"city": "Hyderabad",
+		"visitingLocation": "DLF"
+	}, {
+		"_id": "VL0002",
+		"country": "India",
+		"city": "Bangalore",
+		"visitingLocation": "Manyata Tech Park"
+	}
+])
+
+db.presenter.insert([
+    {
+        "_id": "143374",
+        "name": "Anthati, Krishnaiah",
+        "designation": "Architect",
+        "competency": "CDB-INT-D-DigitalExpDesign-Eng",
+        "imgUrl": "profilepics/143374_pic.gif"
+    },{
+        "_id": "146876",
+        "name": "Reddy, Y.J.Krishna",
+        "designation": "Architect",
+        "competency": "CDB-INT-D-DigitalExpDesign-Eng",
+        "imgUrl": "profilepics/dummy_user.gif"
+    },{
+        "_id": "299734",
+        "name": "Munjuluri, Lakshmi Narayana",
+        "designation": "Architect",
+        "competency": "CDB-INT-D-DigitalExpDesign-Eng",
+        "imgUrl": "profilepics/299734_pic.gif"
+    },{
+        "_id": "164641",
+        "name": "Ganta, Venkateshwar Rao",
+        "designation": "Sr. Manager",
+        "competency": "CDB-INT-DRC-Design",
+        "imgUrl": "profilepics/164641_pic.gif"
+    },{
+        "_id": "451833",
+        "name": "Beeram, Varun",
+        "designation": "PA",
+        "competency": "CDB-INT-DRC-Design",
+        "imgUrl": "profilepics/451833_pic.gif"
+    }
+])
+
+db.counters.insert([
+	{
+		"_id": "visitid",
+		"seq": 0
+	}, {
+		"_id": "attendeeid",
+		"seq": 11
+	},{
+		"_id": "agendaid",
+		"seq": 0
+	}, {
+		"_id": "customerid",
+		"seq": 0
+	}, {
+		"_id": "customerFeedbackid",
+		"seq": 0
+	}, {
+		"_id": "flightDetailid",
+		"seq": 0
+	}, {
+		"_id": "servicesid",
+		"seq": 0
+	}, {
+		"_id": "service_cabid",
+		"seq": 0
+	}, {
+		"_id": "service_hotelid",
+		"seq": 0
+	}, {
+		"_id": "service_fbid",
+		"seq": 0
+	}
+])
+
+db.visit.insert([
+	{
+		"_id": "CV000016",
+		"user_ID": "297757",
+		"client_ID": "CUST0001",
+		"purpose": "Global Visit",
+		"startDate": ISODate("2018-03-26"),
+		"endDate": ISODate("2018-03-28"),
+		"visitingLocation": ["VL0001"],
+		"attendees": ["A000001", "A000002", "A000003", "A000004", "A000005"]
+	}, {
+		"_id": "CV000017",
+		"user_ID": "297757",
+		"client_ID": "CUST0001",
+		"purpose": "Audit Visit",
+		"startDate": ISODate("2018-03-06"),
+		"endDate": ISODate("2018-03-08"),
+		"visitingLocation": ["VL0001"],
+		"attendees": ["A000001", "A000002", "A000003", "A000004", "A000005"]
+	}, {
+		"_id": "CV000018",
+		"user_ID": "297757",
+		"client_ID": "CUST0001",
+		"purpose": "DigiExpo Visit",
+		"startDate": ISODate("2018-04-11"),
+		"endDate": ISODate("2018-04-12"),
+		"visitingLocation": ["VL0002"],
+		"attendees": ["A000001", "A000002", "A000003", "A000004", "A000005"]
+	}
+])
+
+db.agenda.insert([
+	{
+		"_id": "5aa76d71660a8a155c54bfdc",
+		"visitId": "CV000016",
+		"topic": "Introduction",
+		"date": "2018-03-25T18:30:00.000Z",
+		"from": "09:00",
+		"to": "10:00",
+		"meetingRoomId": "MR0004",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76d71660a8a155c54bfdd",
+		"visitId": "CV000016",
+		"topic": "Digital UX Capabilities",
+		"date": "2018-03-25T18:30:00.000Z",
+		"from": "10:00",
+		"to": "11:00",
+		"meetingRoomId": "MR0004",
+		"competency": "1",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76d71660a8a155c54bfde",
+		"visitId": "CV000016",
+		"topic": "Digital Marketing",
+		"date": "2018-03-25T18:30:00.000Z",
+		"from": "11:00",
+		"to": "12:00",
+		"meetingRoomId": "MR0004",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76d71660a8a155c54bfdf",
+		"visitId": "CV000016",
+		"topic": "User Experience",
+		"date": "2018-03-25T18:30:00.000Z",
+		"from": "12:00",
+		"to": "13:00",
+		"meetingRoomId": "MR0004",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76d71660a8a155c54bfe0",
+		"visitId": "CV000016",
+		"topic": "Cloud Computing",
+		"date": "2018-03-25T18:30:00.000Z",
+		"from": "14:00",
+		"to": "15:00",
+		"meetingRoomId": "MR0004",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76d71660a8a155c54bfe1",
+		"visitId": "CV000016",
+		"topic": "Introduction",
+		"date": "2018-03-26T18:30:00.000Z",
+		"from": "09:00",
+		"to": "10:00",
+		"meetingRoomId": "MR0004",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76d71660a8a155c54bfe2",
+		"visitId": "CV000016",
+		"topic": "Digital Marketing",
+		"date": "2018-03-26T18:30:00.000Z",
+		"from": "10:00",
+		"to": "11:00",
+		"meetingRoomId": "MR0004",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76d71660a8a155c54bfe3",
+		"visitId": "CV000016",
+		"topic": "Cloud Computing",
+		"date": "2018-03-27T18:30:00.000Z",
+		"from": "10:00",
+		"to": "11:00",
+		"meetingRoomId": "MR0004",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76ea5660a8a155c54bfe6",
+		"visitId": "CV000017",
+		"topic": "Introduction",
+		"date": "2018-03-05T18:30:00.000Z",
+		"from": "09:00",
+		"to": "10:00",
+		"meetingRoomId": "MR0001",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76ea5660a8a155c54bfe7",
+		"visitId": "CV000017",
+		"topic": "Digital UX Capabilities",
+		"date": "2018-03-05T18:30:00.000Z",
+		"from": "10:00",
+		"to": "11:00",
+		"meetingRoomId": "MR0001",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76ea5660a8a155c54bfe8",
+		"visitId": "CV000017",
+		"topic": "Digital UX Capabilities",
+		"date": "2018-03-06T18:30:00.000Z",
+		"from": "13:00",
+		"to": "14:00",
+		"meetingRoomId": "MR0001",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76f03660a8a155c54bfeb",
+		"visitId": "CV000018",
+		"topic": "Introduction",
+		"date": "2018-04-10T18:30:00.000Z",
+		"from": "09:00",
+		"to": "10:00",
+		"meetingRoomId": "MR0006",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76f03660a8a155c54bfec",
+		"visitId": "CV000018",
+		"topic": "Digital UX Capabilities",
+		"date": "2018-04-10T18:30:00.000Z",
+		"from": "10:00",
+		"to": "11:00",
+		"meetingRoomId": "MR0006",
+		"competency": "0",
+		"POCID": ["401468"]
+	}, {
+		"_id": "5aa76f03660a8a155c54bfed",
+		"visitId": "CV000018",
+		"topic": "Digital UX Capabilities",
+		"date": "2018-04-11T18:30:00.000Z",
+		"from": "10:00",
+		"to": "11:00",
+		"meetingRoomId": "MR0006",
+		"competency": "0",
+		"POCID": ["401468"]
+	}
+	
+])
+
+db.notification.insert([
+	{ 
+		"_id" : ObjectId("5aa6728d2944012974dd33e2"),
+		"title" : "Global Visit", 
+		"visitId" : "CV000016", 
+		"description" : "Account Manager added new Visit", 
+		"role" : "att", 
+		"modifiedby" : "297757", 
+		"userId" : "A000001", 
+		"read_flag" : 0, 
+		"lastUpdatedDate" : "2018-03-12T12:29:01.106Z" 
+	},{ 
+		"_id" : ObjectId("5aa6728d2944012974dd33e3"),
+		"title" : "Global Visit", 
+		"visitId" : "CV000016", 
+		"description" : "Account Manager added new Visit", 
+		"role" : "att", 
+		"modifiedby" : "297757", 
+		"userId" : "A000002", 
+		"read_flag" : 0, 
+		"lastUpdatedDate" : "2018-03-12T12:29:01.106Z" 
+	},{ 
+		"_id" : ObjectId("5aa6728d2944012974dd33e4"),
+		"title" : "Global Visit", 
+		"visitId" : "CV000016", 
+		"description" : "Account Manager added new Visit", 
+		"role" : "att", 
+		"modifiedby" : "297757", 
+		"userId" : "A000003", 
+		"read_flag" : 0, 
+		"lastUpdatedDate" : "2018-03-12T12:29:01.106Z" 
+	},{ 
+		"_id" : ObjectId("5aa6728d2944012974dd33e5"),
+		"title" : "Global Visit", 
+		"visitId" : "CV000016", 
+		"description" : "Account Manager added new Visit", 
+		"role" : "att", 
+		"modifiedby" : "297757", 
+		"userId" : "A000004", 
+		"read_flag" : 0, 
+		"lastUpdatedDate" : "2018-03-12T12:29:01.106Z" 
+	},{ 
+		"_id" : ObjectId("5aa6728d2944012974dd33e6"),
+		"title" : "Global Visit", 
+		"visitId" : "CV000016", 
+		"description" : "Account Manager added new Visit", 
+		"role" : "att", 
+		"modifiedby" : "297757", 
+		"userId" : "A000005", 
+		"read_flag" : 0, 
+		"lastUpdatedDate" : "2018-03-12T12:29:01.106Z" 
+	},{ 
+		"_id" : ObjectId("5aa6728d2944012974dd33e7"),
+		"title" : "Global Visit", 
+		"visitId" : "CV000017", 
+		"description" : "Account Manager added new Visit", 
+		"role" : "att", 
+		"modifiedby" : "297757", 
+		"userId" : "A000006", 
+		"read_flag" : 0, 
+		"lastUpdatedDate" : "2018-03-13T12:29:01.106Z" 
+	},{ 
+		"_id" : ObjectId("5aa6728d2944012974dd33e8"),
+		"title" : "Global Visit", 
+		"visitId" : "CV000017", 
+		"description" : "Account Manager added new Visit", 
+		"role" : "att", 
+		"modifiedby" : "297757", 
+		"userId" : "A000007", 
+		"read_flag" : 0, 
+		"lastUpdatedDate" : "2018-03-13T12:29:01.106Z" 
+	},{ 
+		"_id" : ObjectId("5aa6728d2944012974dd33e9"),
+		"title" : "Global Visit", 
+		"visitId" : "CV000017", 
+		"description" : "Account Manager added new Visit", 
+		"role" : "att", 
+		"modifiedby" : "297757", 
+		"userId" : "A000008", 
+		"read_flag" : 0, 
+		"lastUpdatedDate" : "2018-03-13T12:29:01.106Z" 
+	},{ 
+		"_id" : ObjectId("5aa6728d2944012974dd33e0"),
+		"title" : "Global Visit", 
+		"visitId" : "CV000017", 
+		"description" : "Account Manager added new Visit", 
+		"role" : "att", 
+		"modifiedby" : "297757", 
+		"userId" : "A000009", 
+		"read_flag" : 0, 
+		"lastUpdatedDate" : "2018-03-13T12:29:01.106Z" 
+	},{ 
+		"_id" : ObjectId("5aa6728d2944012974dd33e1"),
+		"title" : "Global Visit", 
+		"visitId" : "CV000017", 
+		"description" : "Account Manager added new Visit", 
+		"role" : "att", 
+		"modifiedby" : "297757", 
+		"userId" : "A0000010", 
+		"read_flag" : 0, 
+		"lastUpdatedDate" : "2018-03-13T12:29:01.106Z" 
+	}
+])
+
+db.country.insert([
+	{"_id":1,"name": "Afghanistan", "code": "AF"},
+	{"_id":2,"name": "Åland Islands", "code": "AX"},
+	{"_id":3,"name": "Albania", "code": "AL"},
+	{"_id":4,"name": "Algeria", "code": "DZ"},
+	{"_id":5,"name": "American Samoa", "code": "AS"},
+	{"_id":6,"name": "AndorrA", "code": "AD"},
+	{"_id":7,"name": "Angola", "code": "AO"},
+	{"_id":8,"name": "Anguilla", "code": "AI"},
+	{"_id":9,"name": "Antarctica", "code": "AQ"},
+	{"_id":10,"name": "Antigua and Barbuda", "code": "AG"},
+	{"_id":11,"name": "Argentina", "code": "AR"},
+	{"_id":12,"name": "Armenia", "code": "AM"},
+	{"_id":13,"name": "Aruba", "code": "AW"},
+	{"_id":14,"name": "Australia", "code": "AU"},
+	{"_id":15,"name": "Austria", "code": "AT"},
+	{"_id":16,"name": "Azerbaijan", "code": "AZ"},
+	{"_id":17,"name": "Bahamas", "code": "BS"},
+	{"_id":18,"name": "Bahrain", "code": "BH"},
+	{"_id":19,"name": "Bangladesh", "code": "BD"},
+	{"_id":20,"name": "Barbados", "code": "BB"},
+	{"_id":21,"name": "Belarus", "code": "BY"},
+	{"_id":22,"name": "Belgium", "code": "BE"},
+	{"_id":23,"name": "Belize", "code": "BZ"},
+	{"_id":24,"name": "Benin", "code": "BJ"},
+	{"_id":25,"name": "Bermuda", "code": "BM"},
+	{"_id":26,"name": "Bhutan", "code": "BT"},
+	{"_id":27,"name": "Bolivia", "code": "BO"},
+	{"_id":28,"name": "Bosnia and Herzegovina", "code": "BA"},
+	{"_id":29,"name": "Botswana", "code": "BW"},
+	{"_id":30,"name": "Bouvet Island", "code": "BV"},
+	{"_id":31,"name": "Brazil", "code": "BR"},
+	{"_id":32,"name": "British Indian Ocean Territory", "code": "IO"},
+	{"_id":33,"name": "Brunei Darussalam", "code": "BN"},
+	{"_id":34,"name": "Bulgaria", "code": "BG"},
+	{"_id":35,"name": "Burkina Faso", "code": "BF"},
+	{"_id":36,"name": "Burundi", "code": "BI"},
+	{"_id":37,"name": "Cambodia", "code": "KH"},
+	{"_id":38,"name": "Cameroon", "code": "CM"},
+	{"_id":39,"name": "Canada", "code": "CA"},
+	{"_id":40,"name": "Cape Verde", "code": "CV"},
+	{"_id":41,"name": "Cayman Islands", "code": "KY"},
+	{"_id":42,"name": "Central African Republic", "code": "CF"},
+	{"_id":43,"name": "Chad", "code": "TD"},
+	{"_id":44,"name": "Chile", "code": "CL"},
+	{"_id":45,"name": "China", "code": "CN"},
+	{"_id":46,"name": "Christmas Island", "code": "CX"},
+	{"_id":47,"name": "Cocos (Keeling) Islands", "code": "CC"},
+	{"_id":48,"name": "Colombia", "code": "CO"},
+	{"_id":49,"name": "Comoros", "code": "KM"},
+	{"_id":50,"name": "Congo", "code": "CG"},
+	{"_id":51,"name": "Congo, The Democratic Republic of the", "code": "CD"},
+	{"_id":52,"name": "Cook Islands", "code": "CK"},
+	{"_id":53,"name": "Costa Rica", "code": "CR"},
+	{"_id":54,"name": "Cote D'Ivoire", "code": "CI"},
+	{"_id":55,"name": "Croatia", "code": "HR"},
+	{"_id":56,"name": "Cuba", "code": "CU"},
+	{"_id":57,"name": "Cyprus", "code": "CY"},
+	{"_id":58,"name": "Czech Republic", "code": "CZ"},
+	{"_id":59,"name": "Denmark", "code": "DK"},
+	{"_id":60,"name": "Djibouti", "code": "DJ"},
+	{"_id":61,"name": "Dominica", "code": "DM"},
+	{"_id":62,"name": "Dominican Republic", "code": "DO"},
+	{"_id":63,"name": "Ecuador", "code": "EC"},
+	{"_id":64,"name": "Egypt", "code": "EG"},
+	{"_id":65,"name": "El Salvador", "code": "SV"},
+	{"_id":66,"name": "Equatorial Guinea", "code": "GQ"},
+	{"_id":67,"name": "Eritrea", "code": "ER"},
+	{"_id":68,"name": "Estonia", "code": "EE"},
+	{"_id":69,"name": "Ethiopia", "code": "ET"},
+	{"_id":70,"name": "Falkland Islands (Malvinas)", "code": "FK"},
+	{"_id":71,"name": "Faroe Islands", "code": "FO"},
+	{"_id":72,"name": "Fiji", "code": "FJ"},
+	{"_id":73,"name": "Finland", "code": "FI"},
+	{"_id":74,"name": "France", "code": "FR"},
+	{"_id":75,"name": "French Guiana", "code": "GF"},
+	{"_id":76,"name": "French Polynesia", "code": "PF"},
+	{"_id":77,"name": "French Southern Territories", "code": "TF"},
+	{"_id":78,"name": "Gabon", "code": "GA"},
+	{"_id":79,"name": "Gambia", "code": "GM"},
+	{"_id":80,"name": "Georgia", "code": "GE"},
+	{"_id":81,"name": "Germany", "code": "DE"},
+	{"_id":82,"name": "Ghana", "code": "GH"},
+	{"_id":83,"name": "Gibraltar", "code": "GI"},
+	{"_id":84,"name": "Greece", "code": "GR"},
+	{"_id":85,"name": "Greenland", "code": "GL"},
+	{"_id":86,"name": "Grenada", "code": "GD"},
+	{"_id":87,"name": "Guadeloupe", "code": "GP"},
+	{"_id":88,"name": "Guam", "code": "GU"},
+	{"_id":89,"name": "Guatemala", "code": "GT"},
+	{"_id":90,"name": "Guernsey", "code": "GG"},
+	{"_id":91,"name": "Guinea", "code": "GN"},
+	{"_id":92,"name": "Guinea-Bissau", "code": "GW"},
+	{"_id":93,"name": "Guyana", "code": "GY"},
+	{"_id":94,"name": "Haiti", "code": "HT"},
+	{"_id":95,"name": "Heard Island and Mcdonald Islands", "code": "HM"},
+	{"_id":96,"name": "Holy See (Vatican City State)", "code": "VA"},
+	{"_id":97,"name": "Honduras", "code": "HN"},
+	{"_id":98,"name": "Hong Kong", "code": "HK"},
+	{"_id":99,"name": "Hungary", "code": "HU"},
+	{"_id":100,"name": "Iceland", "code": "IS"},
+	{"_id":101,"name": "India", "code": "IN"},
+	{"_id":102,"name": "Indonesia", "code": "ID"},
+	{"_id":103,"name": "Iran, Islamic Republic Of", "code": "IR"},
+	{"_id":104,"name": "Iraq", "code": "IQ"},
+	{"_id":105,"name": "Ireland", "code": "IE"},
+	{"_id":106,"name": "Isle of Man", "code": "IM"},
+	{"_id":107,"name": "Israel", "code": "IL"},
+	{"_id":108,"name": "Italy", "code": "IT"},
+	{"_id":109,"name": "Jamaica", "code": "JM"},
+	{"_id":110,"name": "Japan", "code": "JP"},
+	{"_id":111,"name": "Jersey", "code": "JE"},
+	{"_id":112,"name": "Jordan", "code": "JO"},
+	{"_id":113,"name": "Kazakhstan", "code": "KZ"},
+	{"_id":114,"name": "Kenya", "code": "KE"},
+	{"_id":115,"name": "Kiribati", "code": "KI"},
+	{"_id":116,"name": "Korea, Democratic People'S Republic of", "code": "KP"},
+	{"_id":117,"name": "Korea, Republic of", "code": "KR"},
+	{"_id":118,"name": "Kuwait", "code": "KW"},
+	{"_id":119,"name": "Kyrgyzstan", "code": "KG"},
+	{"_id":120,"name": "Lao People'S Democratic Republic", "code": "LA"},
+	{"_id":121,"name": "Latvia", "code": "LV"},
+	{"_id":122,"name": "Lebanon", "code": "LB"},
+	{"_id":123,"name": "Lesotho", "code": "LS"},
+	{"_id":124,"name": "Liberia", "code": "LR"},
+	{"_id":125,"name": "Libyan Arab Jamahiriya", "code": "LY"},
+	{"_id":126,"name": "Liechtenstein", "code": "LI"},
+	{"_id":127,"name": "Lithuania", "code": "LT"},
+	{"_id":128,"name": "Luxembourg", "code": "LU"},
+	{"_id":129,"name": "Macao", "code": "MO"},
+	{"_id":130,"name": "Macedonia, The Former Yugoslav Republic of", "code": "MK"},
+	{"_id":131,"name": "Madagascar", "code": "MG"},
+	{"_id":132,"name": "Malawi", "code": "MW"},
+	{"_id":133,"name": "Malaysia", "code": "MY"},
+	{"_id":134,"name": "Maldives", "code": "MV"},
+	{"_id":135,"name": "Mali", "code": "ML"},
+	{"_id":136,"name": "Malta", "code": "MT"},
+	{"_id":137,"name": "Marshall Islands", "code": "MH"},
+	{"_id":138,"name": "Martinique", "code": "MQ"},
+	{"_id":139,"name": "Mauritania", "code": "MR"},
+	{"_id":140,"name": "Mauritius", "code": "MU"},
+	{"_id":141,"name": "Mayotte", "code": "YT"},
+	{"_id":142,"name": "Mexico", "code": "MX"},
+	{"_id":143,"name": "Micronesia, Federated States of", "code": "FM"},
+	{"_id":144,"name": "Moldova, Republic of", "code": "MD"},
+	{"_id":145,"name": "Monaco", "code": "MC"},
+	{"_id":146,"name": "Mongolia", "code": "MN"},
+	{"_id":147,"name": "Montserrat", "code": "MS"},
+	{"_id":148,"name": "Morocco", "code": "MA"},
+	{"_id":149,"name": "Mozambique", "code": "MZ"},
+	{"_id":150,"name": "Myanmar", "code": "MM"},
+	{"_id":151,"name": "Namibia", "code": "NA"},
+	{"_id":152,"name": "Nauru", "code": "NR"},
+	{"_id":153,"name": "Nepal", "code": "NP"},
+	{"_id":154,"name": "Netherlands", "code": "NL"},
+	{"_id":155,"name": "Netherlands Antilles", "code": "AN"},
+	{"_id":156,"name": "New Caledonia", "code": "NC"},
+	{"_id":157,"name": "New Zealand", "code": "NZ"},
+	{"_id":158,"name": "Nicaragua", "code": "NI"},
+	{"_id":159,"name": "Niger", "code": "NE"},
+	{"_id":160,"name": "Nigeria", "code": "NG"},
+	{"_id":161,"name": "Niue", "code": "NU"},
+	{"_id":162,"name": "Norfolk Island", "code": "NF"},
+	{"_id":163,"name": "Northern Mariana Islands", "code": "MP"},
+	{"_id":164,"name": "Norway", "code": "NO"},
+	{"_id":165,"name": "Oman", "code": "OM"},
+	{"_id":166,"name": "Pakistan", "code": "PK"},
+	{"_id":167,"name": "Palau", "code": "PW"},
+	{"_id":168,"name": "Palestinian Territory, Occupied", "code": "PS"},
+	{"_id":169,"name": "Panama", "code": "PA"},
+	{"_id":170,"name": "Papua New Guinea", "code": "PG"},
+	{"_id":171,"name": "Paraguay", "code": "PY"},
+	{"_id":172,"name": "Peru", "code": "PE"},
+	{"_id":173,"name": "Philippines", "code": "PH"},
+	{"_id":174,"name": "Pitcairn", "code": "PN"},
+	{"_id":175,"name": "Poland", "code": "PL"},
+	{"_id":176,"name": "Portugal", "code": "PT"},
+	{"_id":177,"name": "Puerto Rico", "code": "PR"},
+	{"_id":178,"name": "Qatar", "code": "QA"},
+	{"_id":179,"name": "Reunion", "code": "RE"},
+	{"_id":180,"name": "Romania", "code": "RO"},
+	{"_id":181,"name": "Russian Federation", "code": "RU"},
+	{"_id":182,"name": "RWANDA", "code": "RW"},
+	{"_id":183,"name": "Saint Helena", "code": "SH"},
+	{"_id":184,"name": "Saint Kitts and Nevis", "code": "KN"},
+	{"_id":185,"name": "Saint Lucia", "code": "LC"},
+	{"_id":186,"name": "Saint Pierre and Miquelon", "code": "PM"},
+	{"_id":187,"name": "Saint Vincent and the Grenadines", "code": "VC"},
+	{"_id":188,"name": "Samoa", "code": "WS"},
+	{"_id":189,"name": "San Marino", "code": "SM"},
+	{"_id":190,"name": "Sao Tome and Principe", "code": "ST"},
+	{"_id":191,"name": "Saudi Arabia", "code": "SA"},
+	{"_id":192,"name": "Senegal", "code": "SN"},
+	{"_id":193,"name": "Serbia and Montenegro", "code": "CS"},
+	{"_id":194,"name": "Seychelles", "code": "SC"},
+	{"_id":195,"name": "Sierra Leone", "code": "SL"},
+	{"_id":196,"name": "Singapore", "code": "SG"},
+	{"_id":197,"name": "Slovakia", "code": "SK"},
+	{"_id":198,"name": "Slovenia", "code": "SI"},
+	{"_id":199,"name": "Solomon Islands", "code": "SB"},
+	{"_id":200,"name": "Somalia", "code": "SO"},
+	{"_id":201,"name": "South Africa", "code": "ZA"},
+	{"_id":202,"name": "South Georgia and the South Sandwich Islands", "code": "GS"},
+	{"_id":203,"name": "Spain", "code": "ES"},
+	{"_id":204,"name": "Sri Lanka", "code": "LK"},
+	{"_id":205,"name": "Sudan", "code": "SD"},
+	{"_id":206,"name": "Suriname", "code": "SR"},
+	{"_id":207,"name": "Svalbard and Jan Mayen", "code": "SJ"},
+	{"_id":208,"name": "Swaziland", "code": "SZ"},
+	{"_id":209,"name": "Sweden", "code": "SE"},
+	{"_id":210,"name": "Switzerland", "code": "CH"},
+	{"_id":211,"name": "Syrian Arab Republic", "code": "SY"},
+	{"_id":212,"name": "Taiwan, Province of China", "code": "TW"},
+	{"_id":213,"name": "Tajikistan", "code": "TJ"},
+	{"_id":214,"name": "Tanzania, United Republic of", "code": "TZ"},
+	{"_id":215,"name": "Thailand", "code": "TH"},
+	{"_id":216,"name": "Timor-Leste", "code": "TL"},
+	{"_id":217,"name": "Togo", "code": "TG"},
+	{"_id":218,"name": "Tokelau", "code": "TK"},
+	{"_id":219,"name": "Tonga", "code": "TO"},
+	{"_id":220,"name": "Trinidad and Tobago", "code": "TT"},
+	{"_id":221,"name": "Tunisia", "code": "TN"},
+	{"_id":222,"name": "Turkey", "code": "TR"},
+	{"_id":223,"name": "Turkmenistan", "code": "TM"},
+	{"_id":224,"name": "Turks and Caicos Islands", "code": "TC"},
+	{"_id":225,"name": "Tuvalu", "code": "TV"},
+	{"_id":226,"name": "Uganda", "code": "UG"},
+	{"_id":227,"name": "Ukraine", "code": "UA"},
+	{"_id":228,"name": "United Arab Emirates", "code": "AE"},
+	{"_id":229,"name": "United Kingdom", "code": "GB"},
+	{"_id":230,"name": "United States", "code": "US"},
+	{"_id":231,"name": "United States Minor Outlying Islands", "code": "UM"},
+	{"_id":232,"name": "Uruguay", "code": "UY"},
+	{"_id":233,"name": "Uzbekistan", "code": "UZ"},
+	{"_id":234,"name": "Vanuatu", "code": "VU"},
+	{"_id":235,"name": "Venezuela", "code": "VE"},
+	{"_id":236,"name": "Viet Nam", "code": "VN"},
+	{"_id":237,"name": "Virgin Islands, British", "code": "VG"},
+	{"_id":238,"name": "Virgin Islands, U.S.", "code": "VI"},
+	{"_id":239,"name": "Wallis and Futuna", "code": "WF"},
+	{"_id":240,"name": "Western Sahara", "code": "EH"},
+	{"_id":241,"name": "Yemen", "code": "YE"},
+	{"_id":242,"name": "Zambia", "code": "ZM"},
+	{"_id":243,"name": "Zimbabwe", "code": "ZW"}
+]);
+
+db.hotel.insert([
+	{
+		"_id":"H00001",
+		"location":"hyderabad",
+		"name":"Taj",
+		"address":"Hyderabad",
+		"roomTypes":['Suite','Luxury','Classic'],
+		"hotelPics":"",
+		"additionalDetails":""
+	}, {
+		"_id":"H00002",
+		"location":"hyderabad",
+		"name":"Radisson",
+		"address":"Hyderabad",
+		"roomTypes":['Suite','Super Deluxe'],
+		"hotelPics":"",
+		"additionalDetails":""
+	}, {
+		"_id":"H00003",
+		"location":"hyderabad",
+		"name":"Trident",
+		"address":"Hyderabad",
+		"roomTypes":['Suite','Super Deluxe','Luxury'],
+		"hotelPics":"",
+		"additionalDetails":""
+	}, {
+		"_id":"H00004",
+		"location":"bangalore",
+		"name":"WTC",
+		"address":"Bangalore",
+		"roomTypes":['Suite','Super Deluxe','Luxury'],
+		"hotelPics":"",
+		"additionalDetails":""
+	}, {
+		"_id":"H00005",
+		"location":"bangalore",
+		"name":"Trident",
+		"address":"Bangalore",
+		"roomTypes":['Suite','Luxury','Classic'],
+		"hotelPics":"",
+		"additionalDetails":""
+	}
+]);
+
+db.restaurant.insert([
+	{
+		"_id":"R00001",
+		"location":"hyderabad",
+		"name":"Westin", 
+		"address":"Hyderabad", 
+		"pics":"",
+		"additionalDetails":""
+	},{
+		"_id":"R00002",
+		"location":"hyderabad", 
+		"name":"Absolute BBQ", 
+		"address":"Hyderabad", 
+		"pics":"",
+		"additionalDetails":""
+	},{
+		"_id":"R00003",
+		"location":"hyderabad",
+		"name":"BBQ", 
+		"address":"Hyderabad", 
+		"pics":"",
+		"additionalDetails":""
+	},{
+		"_id":"R00004",
+		"location":"bangalore",
+		"name":"Westin", 
+		"address":"Bangalore", 
+		"pics":"",
+		"additionalDetails":""
+	},{
+		"_id":"R00005",
+		"location":"bangalore",
+		"name":"Sarovar", 
+		"address":"Bangalore", 
+		"pics":"",
+		"additionalDetails":""
+	}
+]);

@@ -1,0 +1,241 @@
+db.user.insert([{
+	"_id": "575353",
+	"name": "Partho",
+	"designation": "PA",
+	"role": "P",
+	"competency": "CDB Interactive",
+	"password": "password-123",
+	"imgUrl": "path of image"
+}, {
+	"_id": "541298",
+	"name": "Deepthi",
+	"designation": "PA",
+	"role": "AM",
+	"competency": "CDB Interactive",
+	"password": "password-123",
+	"imgUrl": "path of image"
+}, {
+	"_id": "306245",
+	"name": "Durga Prasad",
+	"designation": "PA",
+	"role": "AM",
+	"competency": "CDB Interactive",
+	"password": "password-123",
+	"imgUrl": "path of image"
+}, {
+	"_id": "593560",
+	"name": "Shayista",
+	"designation": "PA",
+	"role": "P",
+	"competency": "CDB Interactive",
+	"password": "password-123",
+	"imgUrl": "path of image"
+}, {
+	"_id": "401468",
+	"name": "Abhinay Babu Godugu",
+	"designation": "AM",
+	"role": "P",
+	"competency": "CDB Interactive",
+	"password": "password-123",
+	"imgUrl": "path of image"
+}])
+
+
+db.visit.insert([{
+	"_id": "BC0001",
+	"user_ID": "541298",
+	"client_ID": "CUST0001",
+	"purpose": "Audit Visit",
+	"startDate": ISODate("2018-02-20"),
+	"endDate": ISODate("2018-02-22"),
+	"visitingLocation": ["VL0001", "VL0002"],
+	"attendees": ["A001", "A002"]
+}, {
+	"_id": "BC0002",
+	"user_ID": "541298",
+	"client_ID": "CUST0001",
+	"purpose": "Confirmation Visit",
+	"startDate": ISODate("2018-02-23"),
+	"endDate": ISODate("2018-02-24"),
+	"visitingLocation": ["VL0001"],
+	"attendees": ["A001"]
+}, {
+	"_id": "BC0003",
+	"user_ID": "541298",
+	"client_ID": "CUST0001",
+	"purpose": "past Visit",
+	"startDate": ISODate("2018-02-13"),
+	"endDate": ISODate("2018-02-13"),
+	"visitingLocation": ["VL0001"],
+	"attendees": ["A001"]
+}, {
+	"_id": "BC0004",
+	"user_ID": "541298",
+	"client_ID": "CUST0001",
+	"purpose": "Audit Visit",
+	"startDate": ISODate("2018-02-22"),
+	"endDate": ISODate("2018-02-28"),
+	"visitingLocation": ["VL0001", "VL0002"],
+	"attendees": ["A001", "A002"]
+}, {
+	"_id": "BC0005",
+	"user_ID": "541298",
+	"client_ID": "CUST0001",
+	"purpose": "Audit Visit",
+	"startDate": ISODate("2018-02-25"),
+	"endDate": ISODate("2018-02-27"),
+	"visitingLocation": ["VL0001", "VL0002"],
+	"attendees": ["A001", "A002"]
+}])
+
+
+
+
+
+
+db.agenda.insert([{
+		"visitId": "BC0004",
+		"topic": "Introduction",
+		"date": "2018-02-22",
+		"from": "09:00AM",
+		"to": "10:00AM",
+		"meetingRoom": "MR0001",
+		"competency": "Digital Interactive",
+		"POCID": ["575353", "593560"],
+		"docs_path": "Path to doc"
+	}, {
+		"visitId": "BC0004",
+		"topic": "Digital UX Capabilities",
+		"date": "2018-02-22",
+		"from": "10:00AM",
+		"to": "11:00AM",
+		"meetingRoom": "MR0001",
+		"competency": "Digital Interactive",
+		"POCID": ["575353"],
+		"docs_path": "Path to doc"
+	}, {
+		"visitId": "BC0004",
+		"topic": "Web Development",
+		"date": "2018-02-22",
+		"from": "11:00AM",
+		"to": "12:00AM",
+		"meetingRoom": "MR0001",
+		"competency": "Digital Interactive",
+		"POCID": ["575353"],
+		"docs_path": "Path to doc"
+	}, {
+		"visitId": "BC0004",
+		"topic": "Lunch",
+		"date": "2018-02-23",
+		"from": "12:00AM",
+		"to": "1:00PM",
+		"meetingRoom": "MR0001",
+		"competency": "Digital Interactive",
+		"POCID": ["575353"],
+		"docs_path": "Path to doc"
+	}, {
+		"visitId": "BC0004",
+		"topic": "UX Design",
+		"date": "2018-02-23",
+		"from": "01:00PM",
+		"to": "2:00PM",
+		"meetingRoom": "MR0001",
+		"competency": "Digital Interactive",
+		"POCID": ["575353"],
+		"docs_path": "Path to doc"
+	}
+
+])
+
+db.meetingRoom.insert([{
+	"_id": "MR0001",
+	"visitingLocationId": "VL0001",
+	"meetingRoom": "Conference_Room 1",
+	"capacity": "10"
+}, {
+	"_id": "MR0002",
+	"visitingLocationId": "VL0001",
+	"meetingRoom": "Conference_Room 2",
+	"capacity": "15"
+}, {
+	"_id": "MR0003",
+	"visitingLocationId": "VL0002",
+	"meetingRoom": "ConferenceRoom 1",
+	"capacity": "8"
+}, {
+	"_id": "MR0004",
+	"visitingLocationId": "VL0002",
+	"meetingRoom": "ConferenceRoom 2",
+	"capacity": "15"
+}])
+
+db.attendees.insert([{
+	"_id": "A001",
+	"client_Id": "CUST0001",
+	"name": "John",
+	"gender": "Male",
+	"password": "123456",
+	"designation": "Lead",
+	"email": "abc@xyz.com",
+	"contactNumber": "+91-xxxxxxxxxx",
+	"userUrl": "LinkedIn Profile Url",
+	"attendee_path": "Path to profile",
+}, {
+	"_id": "A002",
+	"client_Id": "CUST0001",
+	"name": "Keith",
+	"password": "123456",
+	"designation": "Lead",
+	"email": "abc12@xyz.com",
+	"contactNumber": "+91-xxxxxxxxxx",
+	"userUrl": "LinkedIn Profile Url",
+	"attendee_path": "Path to profile",
+}])
+
+db.customer.insert([{
+	"_id": "CUST0001",
+	"clientName": "Barclays",
+	"country": "USA",
+	"region": "California"
+}, {
+	"_id": "CUST0002",
+	"clientName": "JPMC",
+	"country": "USA",
+	"region": "Arizona"
+}])
+
+db.presenter.insert({
+	"_id": "583968",
+	"name": "Nagraj",
+	"designation": "PA",
+	"competency": "CDB Interactive",
+	"imgUrl": "path to img"
+})
+
+db.visitingLocation.insert([{
+	"_id": "VL0001",
+	"country": "India",
+	"city": "Hyderabad",
+	"visitingLocation": "DLF"
+}, {
+	"_id": "VL0002",
+	"country": "India",
+	"city": "Hyderabad",
+	"visitingLocation": "Raheja"
+}])
+
+db.customer.insert({
+	"_id": "",
+	"ClientName": "JPMorgan",
+	"Country": "USA",
+	"Region": "abc"
+})
+
+
+db.counters.insert([{
+	"_id": "visitid",
+	"seq": 0
+}, {
+	"_id": "attendeeid",
+	"seq": 0
+}])
